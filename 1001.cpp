@@ -5,13 +5,12 @@ using namespace std;
 
 int main()
 {
-	int numberOne, numberTwo, sum;
+    int numberOne, numberTwo, sum;
 
-	cin>>numberOne>>numberTwo, sum;
+    cin>>numberOne>>numberTwo;
+    sum = numberOne + numberTwo;
 
-	sum = numberOne + numberTwo;
+    cout<<"X = "<<sum<<endl;
 
-	cout<<"X = "<<sum<<endl;
-
-	return 0;
+    return 0;
 }
