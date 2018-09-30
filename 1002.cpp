@@ -10,7 +10,7 @@ int main()
 	cin >> radius;
 	area = PI*(radius*radius);
 	
-    cout << fixed << setprecision(4) <<"A="<< area <<endl;
+        cout << fixed << setprecision(4) <<"A="<< area <<endl;
 
 	return 0;
 }
